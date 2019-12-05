@@ -13,3 +13,10 @@ $(document).ready(function(){
     $(".imagedev").show();
     $("#DEV").hide();
   });
+  $(".imagepro").hover(function(event){
+    $(".imagepro").hide();
+    $("#PRODUCT").show();
+  }, function(){
+    $(".imagepro").show();
+    $("#PRODUCT").hide();
+  });
