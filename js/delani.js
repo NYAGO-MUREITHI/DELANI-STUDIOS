@@ -78,7 +78,7 @@ $(document).ready(function(){
   });
   $("button#submit").click(function(){
      var name=$("#namefield").val();
-      alert("We have recieved your message.Thankyou" + "" + name + "" + "for reaching out" );
+      alert("We have recieved your message.Thankyou "  + name +  " for reaching out" );
   });
 
 });

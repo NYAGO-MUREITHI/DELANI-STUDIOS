@@ -84,12 +84,24 @@ h1{
 .section2{
     background-image: url(/home/mureithi/Documents/jquery-practice/IP3/assets/backgrounds/c_image.jpg);
     padding: 60px;
+    color: white;
+    text-align: center;
 }
 input{
       background: inherit;
+      margin-bottom: 30px;
+      margin-right: 30px;
+      border-color: white;
+      margin-top: 10px;
+      color: white;
+      font-weight: bold;
 }
 textarea{
   background: inherit;
+  margin-left: 50px;
+  border-color: white;
+  color: white;
+  font-weight: bold;
 }
 .portfolio1{
           background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/home/mureithi/Documents/jquery-practice/IP3/assets/portfolio/work1.jpg);
@@ -361,4 +373,7 @@ textarea{
         width: 1050px;
         margin-right: 500px;
         padding-right: 50px;
+}
+button{
+       margin-top:
 }
