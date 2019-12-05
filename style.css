@@ -1,5 +1,5 @@
 .jumbotron{
-  background-image: url(backgrounds/h_img.jpg);
+  background-image: url(/home/mureithi/Documents/jquery-practice/IP3/assets/backgrounds/h_img.jpg);
   background-size: cover;
   text-align: center;
   padding:170px;
@@ -10,12 +10,20 @@
 .logo{
       margin-bottom: 50px;
 }
+#clicker{
+
+}
+
+
+.hidden{
+        display: none;
+}
 .cardie{
    text-align: center;
    font-family: 'Cabin', sans-serif;
 }
 .section1{
-          background-image: url(backgrounds/s_image.jpg);
+          background-image: url(/home/mureithi/Documents/jquery-practice/IP3/assets/backgrounds/s_image.jpg);
           padding: 50px;
           color: white;
           text-align: center;
@@ -82,29 +90,17 @@ h1{
   text-align: center;
 }
 .section2{
-    background-image: url(backgrounds/c_image.jpg);
+    background-image: url(/home/mureithi/Documents/jquery-practice/IP3/assets/backgrounds/c_image.jpg);
     padding: 60px;
-    color: white;
-    text-align: center;
 }
 input{
       background: inherit;
-      margin-bottom: 30px;
-      margin-right: 30px;
-      border-color: white;
-      margin-top: 10px;
-      color: white;
-      font-weight: bold;
 }
 textarea{
   background: inherit;
-  margin-left: 50px;
-  border-color: white;
-  color: white;
-  font-weight: bold;
 }
 .portfolio1{
-          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(portfolio/work1.jpg);
+          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/home/mureithi/Documents/jquery-practice/IP3/assets/portfolio/work1.jpg);
 
            opacity: 0.8;
            color: black;
@@ -134,7 +130,7 @@ textarea{
 
 }
 .portfolio2{
-          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(portfolio/work2.jpg);
+          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/home/mureithi/Documents/jquery-practice/IP3/assets/portfolio/work2.jpg);
           opacity: 0.8;
           color: black;
           font-weight: bold;
@@ -161,7 +157,7 @@ textarea{
 
 }
 .portfolio3{
-          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(portfolio/work3.jpg);
+          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/home/mureithi/Documents/jquery-practice/IP3/assets/portfolio/work3.jpg);
           opacity: 0.8;
           color: black;
           font-weight: bold;
@@ -188,7 +184,7 @@ textarea{
 
 }
 .portfolio4{
-          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(portfolio/work4.jpg);
+          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/home/mureithi/Documents/jquery-practice/IP3/assets/portfolio/work4.jpg);
           opacity: 0.8;
           color: black;
           font-weight: bold;
@@ -216,7 +212,7 @@ textarea{
 
 }
 .portfolio5{
-          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(portfolio/work5.jpg);
+          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/home/mureithi/Documents/jquery-practice/IP3/assets/portfolio/work5.jpg);
           opacity: 0.8;
           color: black;
           font-weight: bold;
@@ -243,7 +239,7 @@ textarea{
 
 }
 .portfolio6{
-          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(portfolio/work6.jpg);
+          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/home/mureithi/Documents/jquery-practice/IP3/assets/portfolio/work6.jpg);
           opacity: 0.8;
           color: black;
           font-weight: bold;
@@ -271,7 +267,7 @@ textarea{
 
 }
 .portfolio7{
-          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(portfolio/work7.jpg);
+          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/home/mureithi/Documents/jquery-practice/IP3/assets/portfolio/work7.jpg);
           opacity: 0.8;
           color: black;
           font-weight: bold;
@@ -297,7 +293,7 @@ textarea{
 
 }
 .portfolio8{
-          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(portfolio/work8.jpg);
+          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/home/mureithi/Documents/jquery-practice/IP3/assets/portfolio/work8.jpg);
           opacity: 0.8;
           color: black;
           font-weight: bold;
@@ -322,6 +318,12 @@ textarea{
             padding-right: 200px;
             padding-bottom: 50px
 
+}
+placeholder{
+            color: black;
+}
+#Error{
+       display: none;
 }
 .social{
         display: flex;
@@ -363,7 +365,7 @@ textarea{
   padding-right: 15px;
 }
 .first4{
-        display: inline-flex;
+        display: flex;
         width: 1050px;
         margin-right: 500px;
         padding-right: 50px;
@@ -373,7 +375,4 @@ textarea{
         width: 1050px;
         margin-right: 500px;
         padding-right: 50px;
-}
-button{
-       margin-top:
 }
