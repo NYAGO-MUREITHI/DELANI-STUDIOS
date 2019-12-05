@@ -121,3 +121,193 @@ textarea{
 
 
 }
+.portfolio2{
+          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/home/mureithi/Documents/jquery-practice/IP3/assets/portfolio/work2.jpg);
+          opacity: 0.8;
+          color: black;
+          font-weight: bold;
+          font-family: 'Bebas Neue', cursive;
+          font-size: 30px;
+          display: none;
+          padding-right: 250px;
+          padding-top: 50px;
+          padding-bottom: 20px;
+          padding-left: 50px;
+          columns: 300px 1;
+}
+.portfolio2>p{
+            color: white;
+            display: block;
+            border-top: 10px;
+            border-bottom: 10px;
+            border-left: 10px;
+            border-right: 10px;
+            border-width: thick;
+            border-style: solid;
+            padding-right: 200px;
+            padding-bottom: 50px
+
+}
+.portfolio3{
+          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/home/mureithi/Documents/jquery-practice/IP3/assets/portfolio/work3.jpg);
+          opacity: 0.8;
+          color: black;
+          font-weight: bold;
+          font-family: 'Bebas Neue', cursive;
+          font-size: 30px;
+          display: none;
+          padding-right: 250px;
+          padding-top: 50px;
+          padding-bottom: 20px;
+          padding-left: 50px;
+          columns: 300px 1;
+}
+.portfolio3>p{
+            color: white;
+            display: block;
+            border-top: 10px;
+            border-bottom: 10px;
+            border-left: 10px;
+            border-right: 10px;
+            border-width: thick;
+            border-style: solid;
+            padding-right: 200px;
+            padding-bottom: 50px
+
+}
+.portfolio4{
+          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/home/mureithi/Documents/jquery-practice/IP3/assets/portfolio/work4.jpg);
+          opacity: 0.8;
+          color: black;
+          font-weight: bold;
+          font-family: 'Bebas Neue', cursive;
+          font-size: 30px;
+          display: none;
+          padding-right: 250px;
+          padding-top: 50px;
+          padding-bottom: 20px;
+          padding-left: 50px;
+          columns: 300px 1;
+          width: 300px;
+}
+.portfolio4>p{
+            color: white;
+            display: block;
+            border-top: 10px;
+            border-bottom: 10px;
+            border-left: 10px;
+            border-right: 10px;
+            border-width: thick;
+            border-style: solid;
+            padding-right: 200px;
+            padding-bottom: 50px
+
+}
+.portfolio5{
+          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/home/mureithi/Documents/jquery-practice/IP3/assets/portfolio/work5.jpg);
+          opacity: 0.8;
+          color: black;
+          font-weight: bold;
+          font-family: 'Bebas Neue', cursive;
+          font-size: 30px;
+          display: none;
+          padding-right: 250px;
+          padding-top: 50px;
+          padding-bottom: 20px;
+          padding-left: 50px;
+          columns: 300px 1;
+}
+.portfolio5>p{
+            color: white;
+            display: block;
+            border-top: 10px;
+            border-bottom: 10px;
+            border-left: 10px;
+            border-right: 10px;
+            border-width: thick;
+            border-style: solid;
+            padding-right: 200px;
+            padding-bottom: 50px
+
+}
+.portfolio6{
+          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/home/mureithi/Documents/jquery-practice/IP3/assets/portfolio/work6.jpg);
+          opacity: 0.8;
+          color: black;
+          font-weight: bold;
+          font-family: 'Bebas Neue', cursive;
+          font-size: 30px;
+          display: none;
+          padding-right: 250px;
+          padding-top: 50px;
+          padding-bottom: 20px;
+          padding-left: 50px;
+          columns: 300px 1;
+}
+.portfolio6>p{
+            color: white;
+            display: block;
+            border-color: white;
+            border-top: 10px;
+            border-bottom: 10px;
+            border-left: 10px;
+            border-right: 10px;
+            border-width: thick;
+            border-style: solid;
+            padding-right: 200px;
+            padding-bottom: 50px
+
+}
+.portfolio7{
+          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/home/mureithi/Documents/jquery-practice/IP3/assets/portfolio/work7.jpg);
+          opacity: 0.8;
+          color: black;
+          font-weight: bold;
+          font-family: 'Bebas Neue', cursive;
+          font-size: 30px;
+          display: none;
+          padding-right: 250px;
+          padding-top: 50px;
+          padding-bottom: 20px;
+          padding-left: 50px;
+          columns: 300px 1;
+}
+.portfolio7>p{
+            color: white;
+            border-top: 10px;
+            border-bottom: 10px;
+            border-left: 10px;
+            border-right: 10px;
+            border-width: thick;
+            border-style: solid;
+            padding-right: 200px;
+            padding-bottom: 50px
+
+}
+.portfolio8{
+          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/home/mureithi/Documents/jquery-practice/IP3/assets/portfolio/work8.jpg);
+          opacity: 0.8;
+          color: black;
+          font-weight: bold;
+          font-family: 'Bebas Neue', cursive;
+          font-size: 30px;
+          display: none;
+          padding-right: 250px;
+          padding-top: 50px;
+          padding-bottom: 20px;
+          padding-left: 50px;
+          columns: 300px 1;
+}
+.portfolio8>p{
+            color: white;
+            display: block;
+            border-top: 10px;
+            border-bottom: 10px;
+            border-left: 10px;
+            border-right: 10px;
+            border-width: thick;
+            border-style: solid;
+            padding-right: 200px;
+            padding-bottom: 50px
+
+}
