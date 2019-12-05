@@ -20,3 +20,10 @@ $(document).ready(function(){
     $(".imagepro").show();
     $("#PRODUCT").hide();
   });
+  $("#work1").hover(function(){
+    $("#work1").hide();
+    $(".portfolio1").show();
+  },function(){
+    $(".portfolio1").hide();
+    $("#work1").show();
+  });
