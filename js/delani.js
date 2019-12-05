@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  //toggle between hide and show on icons 
   $(".imagedes").hover(function(event){
     $(".imagedes").hide();
     $("#design").show();
@@ -20,6 +21,8 @@ $(document).ready(function(){
     $(".imagepro").show();
     $("#PRODUCT").hide();
   });
+
+  //toggle between hide and show in portfolio
   $("#work1").hover(function(){
     $("#work1").hide();
     $(".portfolio1").show();
@@ -76,6 +79,7 @@ $(document).ready(function(){
     $(".portfolio8").hide();
     $("#work8").show();
   });
+  //submit button function to give alert on submit
   $("button#submit").click(function(){
      var name=$("#namefield").val();
       alert("We have recieved your message.Thankyou "  + name +  " for reaching out" );
