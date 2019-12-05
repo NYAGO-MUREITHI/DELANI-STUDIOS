@@ -73,3 +73,8 @@
   clear: both;
   display: table;
 }
+.icons{
+       display: flex;
+       text-align: center;
+       margin-left: 100px;
+}
