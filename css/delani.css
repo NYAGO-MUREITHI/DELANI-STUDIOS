@@ -311,3 +311,9 @@ textarea{
             padding-bottom: 50px
 
 }
+.social{
+        display: flex;
+        padding-left: 300px;
+        padding-right: 300px;
+        flex-wrap: wrap;
+}
