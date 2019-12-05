@@ -350,3 +350,15 @@ textarea{
 .gplus{
   padding-right: 15px;
 }
+.first4{
+        display: flex;
+        width: 1050px;
+        margin-right: 500px;
+        padding-right: 50px;
+}
+.last4{
+        display: flex;
+        width: 1050px;
+        margin-right: 500px;
+        padding-right: 50px;
+}
