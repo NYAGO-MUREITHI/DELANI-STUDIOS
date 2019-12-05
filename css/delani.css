@@ -1,0 +1,9 @@
+.jumbotron{
+  background-image: url(/home/mureithi/Documents/jquery-practice/IP3/assets/backgrounds/h_img.jpg);
+  background-size: cover;
+  text-align: center;
+  padding:170px;
+  color: white;
+  padding-bottom: 20px;
+  padding-right: 200px;
+}
