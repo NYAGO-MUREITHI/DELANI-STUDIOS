@@ -123,6 +123,13 @@
         <div class="section2">
           <h1>CONTACT US</h1>
           <form id="contact" action="index.html" method="post">
+            <input type="text" name="name" value="Name..." id="namefield" placeholder="Name...">
+            <input type="email" name="email" value="Email..." id="emailfield" placeholder="Email..." required><br>
+            <p id="Error">PLEASE ENTER EMAIL</p>
+            <textarea rows="20" cols="100" name="comment" form="contact">
+              Enter text here...</textarea><br>
+            <button type="submit" name="button" id="submit">SUBMIT</button>
+
           </form>
         </div>
       </div>
