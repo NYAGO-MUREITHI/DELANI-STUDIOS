@@ -14,3 +14,12 @@
    text-align: center;
    font-family: 'Cabin', sans-serif;
 }
+.section1{
+          background-image: url(/home/mureithi/Documents/jquery-practice/IP3/assets/backgrounds/s_image.jpg);
+          padding: 50px;
+          color: white;
+          text-align: center;
+          font-weight: bold;
+          font-size: 15px;
+
+}
