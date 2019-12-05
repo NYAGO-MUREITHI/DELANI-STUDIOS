@@ -351,7 +351,7 @@ textarea{
   padding-right: 15px;
 }
 .first4{
-        display: flex;
+        display: inline-flex;
         width: 1050px;
         margin-right: 500px;
         padding-right: 50px;
