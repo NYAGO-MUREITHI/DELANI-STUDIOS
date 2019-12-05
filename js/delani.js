@@ -6,3 +6,10 @@ $(document).ready(function(){
     $(".imagedes").show();
     $("#design").hide();
   });
+  $(".imagedev").hover(function(event){
+    $(".imagedev").hide();
+    $("#DEV").show();
+  }, function(){
+    $(".imagedev").show();
+    $("#DEV").hide();
+  });
