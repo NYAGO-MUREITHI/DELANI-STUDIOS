@@ -51,3 +51,13 @@
        padding: 70px;
        padding-left:
 }
+#DEV{
+     display: none;
+}
+#design{
+        display: none;
+        columns: 100px 1;
+}
+#PRODUCT{
+         display: none;
+}
