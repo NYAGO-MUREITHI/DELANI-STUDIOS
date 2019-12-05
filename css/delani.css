@@ -81,3 +81,7 @@
 h1{
   text-align: center;
 }
+.section2{
+    background-image: url(/home/mureithi/Documents/jquery-practice/IP3/assets/backgrounds/c_image.jpg);
+    padding: 60px;
+}
