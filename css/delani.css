@@ -85,3 +85,39 @@ h1{
     background-image: url(/home/mureithi/Documents/jquery-practice/IP3/assets/backgrounds/c_image.jpg);
     padding: 60px;
 }
+input{
+      background: inherit;
+}
+textarea{
+  background: inherit;
+}
+.portfolio1{
+          background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/home/mureithi/Documents/jquery-practice/IP3/assets/portfolio/work1.jpg);
+
+           opacity: 0.8;
+           color: black;
+           font-weight: bold;
+           font-family: 'Bebas Neue', cursive;
+           font-size: 30px;
+           display: none;
+           padding-right: 200px;
+           padding-top: 50px;
+           padding-bottom: 10px;
+           padding-left: 20px;
+           columns: 100px 1;
+           width: 300px;
+}
+.portfolio1>p{
+            color: white;
+            display: block;
+            border-top: 10px;
+            border-bottom: 10px;
+            border-left: 10px;
+            border-right: 10px;
+            border-width: thick;
+            border-style: solid;
+            padding-right: 200px;
+            padding-bottom: 50px
+
+
+}
