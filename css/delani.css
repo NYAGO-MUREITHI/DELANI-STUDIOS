@@ -23,3 +23,10 @@
           font-size: 15px;
 
 }
+.icons{
+       text-align: center;
+       display: flex;
+       margin-top: 30px;
+       margin-bottom: 30px;
+      margin: 50px;
+}
