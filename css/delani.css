@@ -16,6 +16,7 @@
 }
 .section1{
           background-image: url(backgrounds/s_image.jpg);
+          background-size: cover;
           padding: 50px;
           color: white;
           text-align: center;
@@ -146,6 +147,7 @@ textarea{
           padding-bottom: 20px;
           padding-left: 50px;
           columns: 300px 1;
+          width: 250px;
 }
 .portfolio2>p{
             color: white;
@@ -173,6 +175,7 @@ textarea{
           padding-bottom: 20px;
           padding-left: 50px;
           columns: 300px 1;
+          width: 250px;
 }
 .portfolio3>p{
             color: white;
@@ -195,12 +198,12 @@ textarea{
           font-family: 'Bebas Neue', cursive;
           font-size: 30px;
           display: none;
-          padding-right: 250px;
-          padding-top: 50px;
+          padding-right: 100px;
+          padding-top: 20px;
           padding-bottom: 20px;
-          padding-left: 50px;
+          padding-left: 20px;
           columns: 300px 1;
-          width: 300px;
+          width: 250px;
 }
 .portfolio4>p{
             color: white;
@@ -228,6 +231,7 @@ textarea{
           padding-bottom: 20px;
           padding-left: 50px;
           columns: 300px 1;
+          width: 250px;
 }
 .portfolio5>p{
             color: white;
@@ -255,6 +259,7 @@ textarea{
           padding-bottom: 20px;
           padding-left: 50px;
           columns: 300px 1;
+          width: 250px;
 }
 .portfolio6>p{
             color: white;
@@ -283,6 +288,7 @@ textarea{
           padding-bottom: 20px;
           padding-left: 50px;
           columns: 300px 1;
+          width: 250px;
 }
 .portfolio7>p{
             color: white;
@@ -309,6 +315,7 @@ textarea{
           padding-bottom: 20px;
           padding-left: 50px;
           columns: 300px 1;
+          width: 250px;
 }
 .portfolio8>p{
             color: white;
@@ -374,6 +381,8 @@ textarea{
         margin-right: 500px;
         padding-right: 50px;
 }
-button{
+#submit{
+       display: none;
        margin-top:
+
 }
