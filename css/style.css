@@ -15,9 +15,7 @@
 }
 
 
-.hidden{
-        display: none;
-}
+
 .cardie{
    text-align: center;
    font-family: 'Cabin', sans-serif;
@@ -375,4 +373,7 @@ placeholder{
         width: 1050px;
         margin-right: 500px;
         padding-right: 50px;
+}
+#mc_embed_signup{
+           background: inherit;
 }

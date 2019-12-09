@@ -30,7 +30,7 @@ $(document).ready(function(){
     $(".imagepro").show();
   });
 
-  //toggle between
+  //toggle between portfolio images and the descriptions
   $("#work1").hover(function(){
     $("#work1").hide();
     $(".portfolio1").show();
