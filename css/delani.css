@@ -41,17 +41,32 @@
           margin-left: 100px;
 }
 .imagedes{
+
        padding: 70px;
+       padding-bottom: 0px;
        padding-left:
+}
+.imagedes>p{
+  font-weight: bold;
 }
 .imagedev{
        padding: 70px;
+      padding-bottom: 0px;
        padding-left:
 }
+.imagedev>p{
+  font-weight: bold;
+}
+
 .imagepro{
        padding: 70px;
+        padding-bottom: 0px;
        padding-left:
 }
+.imagepro>p{
+  font-weight: bold;
+}
+
 #DEV{
      display: none;
 }
