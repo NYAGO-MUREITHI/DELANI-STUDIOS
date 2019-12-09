@@ -1,7 +1,4 @@
 $(document).ready(function(){
-  $("#clicker").click(function(){
-    $(".hidden").slideDown();
-  });
   $(".imagedes").hover(function(event){
     $(".imagedes").hide();
     $("#design").show();

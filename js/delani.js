@@ -1,28 +1,36 @@
 $(document).ready(function(){
-  //toggle between hide and show on icons 
-  $(".imagedes").hover(function(event){
+  $(".imagedes").click(function(event){
+
+    $("#design").toggle();
     $(".imagedes").hide();
-    $("#design").show();
-  }, function(){
+  });
+   $("#design").click(function(){
+
+    $("#design").toggle();
     $(".imagedes").show();
-    $("#design").hide();
   });
-  $(".imagedev").hover(function(event){
+  $(".imagedev").click(function(event){
+
+    $("#DEV").toggle();
     $(".imagedev").hide();
-    $("#DEV").show();
-  }, function(){
-    $(".imagedev").show();
-    $("#DEV").hide();
   });
-  $(".imagepro").hover(function(event){
+   $("#DEV").click(function(){
+
+    $("#DEV").toggle();
+    $(".imagedev").show();
+  });
+  $(".imagepro").click(function(event){
+
+    $("#PRODUCT").toggle();
     $(".imagepro").hide();
-    $("#PRODUCT").show();
-  }, function(){
+  });
+   $("#PRODUCT").click(function(){
+
+    $("#PRODUCT").toggle();
     $(".imagepro").show();
-    $("#PRODUCT").hide();
   });
 
-  //toggle between hide and show in portfolio
+  //toggle between portfolio images and the descriptions
   $("#work1").hover(function(){
     $("#work1").hide();
     $(".portfolio1").show();
