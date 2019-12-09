@@ -374,12 +374,14 @@ textarea{
         width: 1050px;
         margin-right: 500px;
         padding-right: 50px;
+        padding-left: 100px;
 }
 .last4{
         display: flex;
         width: 1050px;
         margin-right: 500px;
         padding-right: 50px;
+        padding-left: 100px;
 }
 #submit{
        display: none;
